@@ -11,7 +11,7 @@ class UsersController < ApplicationController
 
     if @user.save
       flash[:success] = 'Register success'
-      redirect_to users_path
+      redirect_to root_path
     else
       flash[:danger] = 'Register failed'
       render :new
