@@ -1,9 +1,9 @@
 class CreateWordAnswers < ActiveRecord::Migration[5.2]
   def change
     create_table :word_answers do |t|
-      t.String :content
-      t.String :word_id
-      t.String :correct
+      t.string :content
+      t.string :word_id
+      t.string :correct
 
       t.timestamps
     end
