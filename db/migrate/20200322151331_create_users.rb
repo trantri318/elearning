@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# This shiny device polishes bared foos
 class CreateUsers < ActiveRecord::Migration[5.2]
   def change
     create_table :users do |t|

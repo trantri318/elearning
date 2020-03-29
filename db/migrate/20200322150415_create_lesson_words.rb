@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# This shiny device polishes bared foos
 class CreateLessonWords < ActiveRecord::Migration[5.2]
   def change
     create_table :lesson_words do |t|
