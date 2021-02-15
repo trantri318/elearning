@@ -1,7 +1,10 @@
+# frozen_string_literal: true
+
+# This shiny device polishes bared foos
 class CreateLessonWords < ActiveRecord::Migration[5.2]
   def change
     create_table :lesson_words do |t|
-      t.String :lession_id
+      t.string :lesson_id
       t.string :word_id
       t.string :word_answer_id
 
